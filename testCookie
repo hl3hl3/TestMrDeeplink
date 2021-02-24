@@ -1,0 +1,27 @@
+<html>
+
+<head>
+<script type="text/javascript">
+
+function tryAddCookie(){
+	document.cookie = "user=John; domain=github.io";
+}
+
+function showCookie() {
+	console.log("cookie = " + document.cookie)
+	alert(document.cookie)
+}
+
+</script>
+</head>
+
+<body>
+
+<button onclick="tryAddCookie()">addCookie</button>
+
+<button onclick="showCookie()">alertCookie</button>
+
+
+</body>
+
+</html>
